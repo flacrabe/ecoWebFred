@@ -1,0 +1,54 @@
+>
+<div class="container">
+    <h1 class="titres">Contact</h1>
+    <div class="row">
+        <div class="column cinquante">
+            <H2>Fomulaire de contact</H2>
+            <section>
+                <form id="contact" name="contact">
+                    <label>
+                            <h4>Nom</h4>
+                            <input name="name" type="text" placeholder="Votre Nom" />
+                        </label>
+                    <label>
+                            <h4>Email</h4>
+                            <input name="email" type="email" placeholder="exemple@exemple.com" />
+                        </label>
+                    <label>
+                            <h4>Raison du message</h4>
+                            <select formControlName="reason">
+                                <option>M'inscrire</option>
+                                <option>Vous rejoindre</option>
+                                <option>Adhérer</option>
+                                <option>Autres</option>
+                            </select>
+                        </label>
+                    <label>
+                            <h4>Message</h4>
+                            <textarea name="message" placeholder="Votre message"></textarea>
+                        </label>
+                    <input class="btn" name="submit" type="submit" value="Send" />
+                </form>
+            </section>
+        </div>
+        <div class="column">
+            <H2 style="margin-bottom : 15px;">Nos Coordonnées</H2>
+            <div class="column">
+                <div class="row">
+                    <img class="iconContact" src="assets/house.svg" alt="adresse">
+                    <p>7 rue burdeau<br>69004 Lyon</p>
+                </div>
+                <div class="row">
+                    <img class="iconContact" src="assets/phone-call.svg" alt="telephone">
+                    <p>06.06.06.06.06</p>
+                </div>
+                <div class="row">
+                    <img class="iconContact" src="assets/envelope.svg" alt="email">
+                    <p>exemple@exemple.com</p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>

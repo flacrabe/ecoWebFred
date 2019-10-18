@@ -1,1 +1,330 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.titres {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    text-align: right;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: rgb(68, 149, 255);
+}
+
+.border {
+    border: rgb(221, 221, 221) solid 2px;
+    border-radius: 5px;
+}
+
+.calendar {
+    height: 700px;
+    border: 0;
+}
+
+
+/* bouton */
+
+
+/* parallax */
+
+.wrapper {
+    /* background: url(test2.webp); */
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* logo  */
+
+.logo-top {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.logo-top img {
+    height: 150px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.newsLetter {
+    margin-right: 20px;
+}
+
+
+/* header */
+
+.header {
+    background-color: #fff;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 3px 3px rgb(187, 187, 187);
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.header li a {
+    display: block;
+    padding: 20px 20px;
+    border-right: 1px solid #f4f4f4;
+    text-decoration: none;
+}
+
+.header li a:hover,
+.header .menu-btn:hover {
+    background-color: #f4f4f4;
+}
+
+.header .logo {
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer ul {
+    width: 250px;
+}
+
+.sociaux {
+    display: flex;
+    align-items: center;
+}
+
+.sociaux img {
+    padding-right: 10px;
+}
+
+
+/* accueil */
+
+.accueil p {
+    text-align: justify;
+}
+
+.accueil img {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+}
+
+
+/* histoire */
+
+.citation {
+    font-family: "Calibri", sans-serif;
+    font-size: 1.2em;
+    color: rgb(128, 128, 128);
+    text-align: right;
+}
+
+.recit {
+    display: flex;
+    flex-direction: row;
+}
+
+.recit img {
+    max-width: 300px;
+    max-height: 300px;
+    height: auto;
+    width: auto;
+}
+
+.recit li p {
+    text-align: justify;
+}
+
+
+/* presence */
+
+.map {
+    max-width: 50%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.map img {
+    width: 100%;
+    padding: 15px;
+    border: rgb(196, 196, 196) solid 1px;
+}
+
+.adressTitle {
+    padding: 5px;
+    border-radius: 3px;
+    background: linear-gradient(90deg, rgb(207, 220, 252) 0%, rgba(0, 212, 255, 0) 100%);
+}
+
+
+/* services */
+
+
+/* gallerie */
+
+.gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.content img {
+    width: auto;
+    height: auto;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.content {
+    padding: 8px;
+    background-color: white;
+    transition: transform 0.5s;
+    border-radius: 5px;
+}
+
+.gallery-item {
+    box-shadow: 5px 5px 3px rgb(187, 187, 187);
+    margin: 8px;
+}
+
+.content:hover {
+    transform: scale(1.3);
+}
+
+.desription-galery {
+    margin-left: 8px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+
+/* Clients */
+
+.clientList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.membres {
+    margin: 2em;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.logoClient {
+    max-height: 80px;
+    max-width: 150px;
+    width: auto;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cardClientName {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+/* contact */
+
+.cinquante {
+    width: 45%;
+    padding-right: 5%;
+    text-align: left;
+}
+
+#contact,
+label,
+input[name="submit"] {
+    position: relative;
+}
+
+label>input,
+textarea,
+button,
+select {
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+}
+
+input,
+textarea,
+button,
+select {
+    width: 70%;
+    padding: 0.5em;
+    border: none;
+    font: 300 100%/1.2 Ubuntu, sans-serif;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    margin: 0 0 1em;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+textarea {
+    height: 6em;
+}
+
+option {
+    color: rgb(148, 148, 148)
+}
+
+.iconContact {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+}
