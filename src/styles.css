@@ -15,9 +15,14 @@ a {
     color: rgb(68, 149, 255);
 }
 
-.border {
+
+/* .border {
     border: rgb(221, 221, 221) solid 2px;
     border-radius: 5px;
+} */
+
+li {
+    list-style: none;
 }
 
 .calendar {
@@ -26,7 +31,44 @@ a {
 }
 
 
-/* bouton */
+/* cards */
+
+.card {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.card-p {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    max-height: 180px;
+    max-width: 200px;
+    width: auto;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagesInCard {
+    height: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
 
 
 /* parallax */
@@ -43,16 +85,6 @@ a {
 
 /* logo  */
 
-.logo-top {
-    display: flex;
-    flex-direction: row;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: flex-end;
-    align-items: center;
-    margin-right: 20px;
-}
-
 .logo-top img {
     height: 150px;
     width: auto;
@@ -61,74 +93,8 @@ a {
     margin-right: auto;
 }
 
-.newsLetter {
-    margin-right: 20px;
-}
-
-
-/* header */
-
-.header {
-    background-color: #fff;
-    position: relative;
-    align-items: center;
-    width: 100%;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 3px 3px 3px rgb(187, 187, 187);
-    justify-content: space-between;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.header ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    overflow: hidden;
-    background-color: #fff;
-}
-
-.header li a {
-    display: block;
-    padding: 20px 20px;
-    border-right: 1px solid #f4f4f4;
-    text-decoration: none;
-}
-
-.header li a:hover,
-.header .menu-btn:hover {
-    background-color: #f4f4f4;
-}
-
-.header .logo {
-    display: block;
-    float: left;
-    font-size: 2em;
-    padding: 10px 20px;
-    text-decoration: none;
-}
-
 
 /* footer */
-
-.footer {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.footer ul {
-    width: 250px;
-}
-
-.sociaux {
-    display: flex;
-    align-items: center;
-}
 
 .sociaux img {
     padding-right: 10px;
@@ -148,32 +114,6 @@ a {
 }
 
 
-/* histoire */
-
-.citation {
-    font-family: "Calibri", sans-serif;
-    font-size: 1.2em;
-    color: rgb(128, 128, 128);
-    text-align: right;
-}
-
-.recit {
-    display: flex;
-    flex-direction: row;
-}
-
-.recit img {
-    max-width: 300px;
-    max-height: 300px;
-    height: auto;
-    width: auto;
-}
-
-.recit li p {
-    text-align: justify;
-}
-
-
 /* presence */
 
 .map {
@@ -186,12 +126,13 @@ a {
     width: 100%;
     padding: 15px;
     border: rgb(196, 196, 196) solid 1px;
+    border-radius: 10px;
 }
 
 .adressTitle {
-    padding: 5px;
+    padding: 10px;
     border-radius: 3px;
-    background: linear-gradient(90deg, rgb(207, 220, 252) 0%, rgba(0, 212, 255, 0) 100%);
+    background: linear-gradient(90deg, rgb(68, 149, 255) 0%, rgba(68, 149, 255, 0.24) 100%);
 }
 
 
