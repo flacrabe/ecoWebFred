@@ -15,12 +15,6 @@ a {
     color: rgb(68, 149, 255);
 }
 
-
-/* .border {
-    border: rgb(221, 221, 221) solid 2px;
-    border-radius: 5px;
-} */
-
 li {
     list-style: none;
 }
@@ -74,7 +68,7 @@ li {
 /* parallax */
 
 .wrapper {
-    /* background: url(test2.webp); */
+    background: url(assets/images/shop.webp);
     height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -136,14 +130,12 @@ li {
 }
 
 
-/* services */
-
-
 /* gallerie */
 
 .gallery {
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     padding-top: 50px;
@@ -214,12 +206,6 @@ li {
 
 /* contact */
 
-.cinquante {
-    width: 45%;
-    padding-right: 5%;
-    text-align: left;
-}
-
 #contact,
 label,
 input[name="submit"] {
@@ -268,4 +254,9 @@ option {
     width: 30px;
     height: auto;
     margin-right: 10px;
+}
+
+.modal-content>img {
+    width: 100%;
+    height: auto;
 }
